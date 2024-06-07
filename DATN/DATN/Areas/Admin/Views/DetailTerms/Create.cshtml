@@ -1,0 +1,52 @@
+﻿@model DATN.Models.DetailTerm
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+}
+
+<h2 style="margin-top:50px">Tạo thông tin học phần </h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Term" class="control-label">Tên học phần</label>
+                <select asp-for="Term" class ="form-control" asp-items="ViewBag.Term"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Semester" class="control-label">Tên học kỳ</label>
+                <select asp-for="Semester" class ="form-control" asp-items="ViewBag.Semester"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subject" class="control-label">Bộ môn</label>
+                <select asp-for="Subject" class="form-control" asp-items="ViewBag.Subject"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label">Ngày bắt đầu</label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label">Ngày kết thúc</label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Room" class="control-label">Địa điểm học</label>
+                <input asp-for="Room" class="form-control" />
+                <span asp-validation-for="Room" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxNumber" class="control-label">Số học sinh tối đa</label>
+                <input asp-for="MaxNumber" class="form-control" />
+                <span asp-validation-for="MaxNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Tạo" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Trở lại</a>
+            </div>
+        </form>
+    </div>
+</div>

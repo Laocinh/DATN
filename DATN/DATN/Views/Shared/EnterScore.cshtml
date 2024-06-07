@@ -1,0 +1,73 @@
+﻿@model IEnumerable<DATN.ViewModels.EnterScore>
+
+@{
+    ViewData["Title"] = "Home Page";
+    var stt = 0;
+}
+
+<h1 class="py-3">Nhập điểm lớp @ViewBag.ClassName học phần @ViewBag.TermName</h1>
+<form method="post" asp-action="EnterScore">
+
+    <div class="d-flex justify-content-between mb-3">
+        <input type="submit" onclick="return confirm('Bạn đã nhập điểm xong?');" class="btn btn-success" value="Lưu thay đổi" />
+    </div>
+
+    <div class="row">
+        <div class="col-2 border bg-secondary text-white">
+            STT
+        </div>
+        <div class="col-2 border bg-secondary text-white">
+            ID
+        </div>
+        <div class="col-2 border bg-secondary text-white">
+            Tên sinh viên
+        </div>
+        <div class="col-2 border bg-secondary text-white">
+            Điểm chuyên cần
+        </div>
+        <div class="col-2 border bg-secondary text-white">
+            Điểm giữa kỳ
+        </div>
+        <div class="col-2 border bg-secondary text-white">
+            Điểm thi
+        </div>
+
+        @foreach (var item in Model)
+        {
+            stt++;
+            <div class="col-2 border">
+                @stt
+            </div>
+            <div class="col-2 border">
+                @item.StudentCode
+            </div>
+            <div class="col-2 border">
+                @item.StudentName
+            </div>
+            <div class="col-2 border">
+                <input asp-for="@item.PointProcess" name="PointProcess" />
+            </div>
+            <div class="col-2 border">
+                <input asp-for="@item.MidtermPoint" name="MidtermPoint" />
+            </div>
+            <div class="col-2 border">
+                <input asp-for="@item.TestScore" name="TestScore" />
+            </div>
+            <input asp-for="@item.PointId" name="PointId" hidden />
+            <input asp-for="@item.Student" name="Student" hidden />
+            <input asp-for="@item.DetailTerm" name="DetailTerm" hidden />
+            <input asp-for="@item.RegistStudent" name="RegistStudent" hidden />
+   
+            <input asp-for="@item.NumberTest" name="NumberTest" hidden />
+            <input asp-for="@item.CreateBy" name="CreateBy" hidden />
+            <input asp-for="@item.UpdateBy" name="UpdateBy" hidden />
+            <input asp-for="@item.CreateDate" name="CreateDate" hidden />
+            <input asp-for="@item.IsActive" name="IsActive" hidden />
+            <input asp-for="@item.IsDelete" name="IsDelete" hidden />
+        }
+    </div>
+</form>
+<div>
+   
+    <a asp-action="Index" class="btn btn-secondary">Trở lại</a>
+</div>

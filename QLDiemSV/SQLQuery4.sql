@@ -1,0 +1,891 @@
+
+CREATE TABLE CLASSES(
+
+ID int PRIMARY KEY IDENTITY, 
+CODE nvarchar(25) UNIQUE, 
+NAME nvarchar(255) , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+CREATE TABLE SEMESTER(
+
+ID int PRIMARY KEY IDENTITY, 
+NAME nvarchar(255) , 
+START_DATE Datetime , 
+END_DATE Datetime , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+GO
+
+CREATE TABLE DETAIL_TERM(
+
+ID bigint PRIMARY KEY IDENTITY, 
+TERM bigint FOREIGN KEY REFERENCES TERM(ID), 
+SEMESTER int FOREIGN KEY REFERENCES SEMESTER(ID), 
+START_DATE Datetime , 
+END_DATE Datetime , 
+ROOM nvarchar(255) , 
+MAX_NUMBER int , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+CREATE TABLE REGIST_STUDENT(
+
+ID bigint PRIMARY KEY IDENTITY, 
+STUDENT bigint FOREIGN KEY REFERENCES STUDENT(ID), 
+DETAIL_TERM bigint FOREIGN KEY REFERENCES DETAIL_TERM(ID), 
+RELEARN int , 
+STATUS bit , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+CREATE TABLE POSITION(
+
+ID int PRIMARY KEY IDENTITY, 
+NAME nvarchar(255) , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+CREATE TABLE SUBJECT(
+
+ID int PRIMARY KEY IDENTITY, 
+NAME nvarchar(255) , 
+MAJOR int FOREIGN KEY REFERENCES MAJOR(ID), 
+STATUS bit , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+CREATE TABLE STUDENT(
+
+ID bigint PRIMARY KEY IDENTITY, 
+CODE varchar(20) UNIQUE, 
+NAME nvarchar(255) , 
+BIRTH_DATE date , 
+GENDER bit , 
+NUMBER_PHONE varchar(15) , 
+EMAIL varchar(50) , 
+ADDRESS nvarchar(2000) , 
+IMAGE nvarchar(2000) , 
+SESSION int FOREIGN KEY REFERENCES SESSION(ID), 
+CLASSES int FOREIGN KEY REFERENCES CLASSES(ID), 
+MAJOR int FOREIGN KEY REFERENCES MAJOR(ID), 
+ACCOUNT_NUMBER varchar(50) , 
+NAME_BANK varchar(50) , 
+IDENTITY_CARD varchar(50) , 
+CREATE_DATE_IDENTITY_CARD varchar(50) , 
+PLACE_IDENTITY_CARD varchar(50) , 
+CITY varchar(50) , 
+DISTRICT varchar(50) , 
+WARD varchar(50) , 
+NATIONALITY varchar(50) , 
+NATIONALS varchar(50) , 
+NATION varchar(50) , 
+PHONE_FAMILY varchar(50) , 
+STATUS bit DEFAULT 1, 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+
+CREATE TABLE COURSE_POINT(
+
+ID bigint PRIMARY KEY IDENTITY, 
+IDSTUDENT bigint FOREIGN KEY REFERENCES STUDENT(ID), 
+IDDETAIL_TERM bigint FOREIGN KEY REFERENCES DETAIL_TERM(ID), 
+IDREGIST_STUDENT bigint FOREIGN KEY REFERENCES REGIST_STUDENT(ID), 
+IDPOINT_PROCESS bigint FOREIGN KEY REFERENCES POINT_PROCESS(ID), 
+TEST_SCORE float , 
+OVERALL_SCORE float , 
+NUMBER_TEST int , 
+STATUS bit , 
+ID_STAFF bigint FOREIGN KEY REFERENCES STAFF(ID), 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+GO
+CREATE TABLE USER_STAFF(
+
+
+ID bigint PRIMARY KEY IDENTITY, 
+STAFF bigint FOREIGN KEY REFERENCES STAFF(ID), 
+USERNAME nvarchar(50) , 
+PASSWORD varchar(20) , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+CREATE TABLE MAJOR(
+
+ID int PRIMARY KEY IDENTITY, 
+NAME nvarchar(255) , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+CREATE TABLE SESSION(
+
+ID int PRIMARY KEY IDENTITY, 
+NAME nvarchar(255) , 
+START_DATE date , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+CREATE TABLE TERM(
+
+ID bigint PRIMARY KEY IDENTITY, 
+NAME nvarchar(255) , 
+COLLEGE_CREDIT int , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+CREATE TABLE TEACHING_ASSIGNMENT(
+
+ID bigint PRIMARY KEY IDENTITY, 
+DETAIL_TERM bigint FOREIGN KEY REFERENCES DETAIL_TERM(ID), 
+STAFF bigint FOREIGN KEY REFERENCES STAFF(ID), 
+STATUS bit , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1)
+GO
+
+
+CREATE TABLE STAFF(
+
+ID bigint PRIMARY KEY IDENTITY, 
+NAME nvarchar(255) , 
+BIRTH_DATE datetime , 
+NUMBER_PHONE varchar(15) , 
+GENDER bit , 
+EMAIL varchar(50) , 
+DEGREE nvarchar(255) , 
+MAJOR int FOREIGN KEY REFERENCES MAJOR(ID), 
+YEAROFWORK int , 
+POSITION int FOREIGN KEY REFERENCES POSITION(ID), 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1) 
+GO
+
+CREATE TABLE STAFF_SUBJECT(
+
+ID bigint PRIMARY KEY IDENTITY, 
+IDSTAFF bigint FOREIGN KEY REFERENCES STAFF(ID), 
+IDSUBJECT int FOREIGN KEY REFERENCES SUBJECT(ID), 
+STATUS bit , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1) 
+GO
+
+
+
+CREATE TABLE POINT_PROCESS(
+
+ID bigint PRIMARY KEY IDENTITY, 
+IDSTUDENT bigint FOREIGN KEY REFERENCES STUDENT(ID), 
+IDDETAIL_TERM bigint FOREIGN KEY REFERENCES DETAIL_TERM(ID), 
+IDREGIST_STUDENT bigint FOREIGN KEY REFERENCES REGIST_STUDENT(ID), 
+ATTENDANCE_POINT float , 
+COMPONENT_POINT float , 
+POINT_PROCESS float , 
+IDSTAFF bigint FOREIGN KEY REFERENCES STAFF(ID), 
+MIDTERM_POINT float , 
+STATUS bit , 
+CREATE_BY nvarchar(450) , 
+UPDATE_BY nvarchar(450) , 
+CREATE_DATE Datetime DEFAULT GETDATE(), 
+UPDATE_DATE Datetime DEFAULT GETDATE(), 
+IS_DELETE bit , 
+IS_ACTIVE bit DEFAULT 1) 
+
+
+CREATE TABLE USER_STUDENT(
+
+ID bigint PRIMARY KEY IDENTITY, 
+STUDENT bigint FOREIGN KEY REFERENCES STUDENT(ID), 
+USERNAME nvarchar(50) UNIQUE, 
+PASSWORD varchar(20) , 
+CREATE_BY bigint , 
+UPDATE_BY bigint , 
+CREATE_DATE nvarchar(450) DEFAULT GETDATE(), 
+UPDATE_DATE nvarchar(450) DEFAULT GETDATE(), 
+IS_DELETE Datetime , 
+IS_ACTIVE Datetime DEFAULT 1) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<DATN.ViewModels.HocPhan>
+
+@{
+    ViewData["Title"] = "TongKetTheoHocPhan";
+    Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+}
+
+<h2 class="py-3" style="margin-top:50px">Tổng kết theo học phần</h2>
+ 
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên học phần
+            </th>
+            <th>
+                Giảng viên
+            </th>
+            <th>
+                Phòng
+            </th>
+            <th>
+                Học kỳ
+            </th>
+            <th>Tác vụ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StaffName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Room)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Semester)
+                </td>
+                <td>
+                    @*  <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> | *@
+@*                     <a asp-action="DetailCoursePoint" asp-route-id="@item.Id">Chi tiết</a> *@
+                    <a asp-action="DetailCoursePoint" asp-route-id="@item.Id" class="btn btn-success btn-event"><i class="fa-solid fa-circle-info"></i></a>
+                    @* <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('Bạn có chắc muốn xóa mục này không?');" class="btn btn-danger btn-event"><i class="fa-solid fa-trash-can"></i></a> *@
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

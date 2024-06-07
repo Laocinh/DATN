@@ -1,0 +1,106 @@
+﻿@model DATN.Models.Staff
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+}
+
+<h2>Sửa thông tin giảng viên</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Họ tên</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BirthDate" class="control-label">Ngày sinh</label>
+                <input asp-for="BirthDate" class="form-control" />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumberPhone" class="control-label">SĐT</label>
+                <input asp-for="NumberPhone" class="form-control" />
+                <span asp-validation-for="NumberPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label">Gender</label>
+                <select asp-for="Gender" class="form-control" asp-items="ViewBag.Gender"></select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label">Email</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Degree" class="control-label">Học vị</label>
+                <input asp-for="Degree" class="form-control" />
+                <span asp-validation-for="Degree" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Major" class="control-label">Chuyên ngành</label>
+                <select asp-for="Major" class="form-control" asp-items="ViewBag.Major"></select>
+                <span asp-validation-for="Major" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Yearofwork" class="control-label">Năm công tác</label>
+                <input asp-for="Yearofwork" class="form-control" />
+                <span asp-validation-for="Yearofwork" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Position" class="control-label">Chức vụ</label>
+                <select asp-for="Position" class="form-control" asp-items="ViewBag.Position"></select>
+                <span asp-validation-for="Position" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="display:none">
+                <label asp-for="CreateBy" class="control-label"></label>
+                <input asp-for="CreateBy" class="form-control" />
+                <span asp-validation-for="CreateBy" class="text-danger"></span>
+            </div>
+          
+            <div class="form-group" style="display:none">
+                <label asp-for="CreateDate" class="control-label"></label>
+                <input asp-for="CreateDate" class="form-control" />
+                <span asp-validation-for="CreateDate" class="text-danger"></span>
+            </div>@* 
+            <div class="form-group">
+                <label class="control-label">Xác nhận xóa</label>
+                <input class="form-control"   @if (Model.IsDelete == true)
+                {
+                    <text>value="Yes"</text>
+                }
+                else
+                {
+                    <text>value="No"</text>
+                }
+                />
+
+                <span asp-validation-for="IsDelete" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Hiển thị</label>
+                <input class="form-control"   @if (Model.IsActive == true)
+                {
+                    <text>value="Active"</text>
+                }
+                else
+                {
+                    <text>value="Inactive"</text>
+                }
+                />
+                <span asp-validation-for="IsActive" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Trở lại</a>
+                </div>
+        </form>
+    </div>
+</div>
+
+

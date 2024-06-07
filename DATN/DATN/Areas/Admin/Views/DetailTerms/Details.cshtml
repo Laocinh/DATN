@@ -1,0 +1,92 @@
+﻿@model DATN.Models.DetailTerm
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+}
+
+<h2 style="margin-top:50px">Thông tin chi tiết học phần</h2>
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+            <label asp-for="Term" class="control-label" >Học phần </label>
+                <select asp-for="Term" readonly class="form-control" asp-items="ViewBag.Term"></select>
+            <span asp-validation-for="Term" class="text-danger"></span>
+        </div>
+            <div class="form-group">
+                <label asp-for="Subject" class="control-label">Bộ môn </label>
+                <select asp-for="Subject" readonly class="form-control" asp-items="ViewBag.Subject"></select>
+                <span asp-validation-for="Subject" class="text-danger"></span>
+            </div>
+        <div class="form-group">
+            <label asp-for="Semester" class="control-label">Học kỳ</label>
+                <select asp-for="Semester" readonly class="form-control" asp-items="ViewBag.Semester"></select>
+            <span asp-validation-for="Semester" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="StartDate" class="control-label">Ngày bắt đầu</label>
+                <input asp-for="StartDate" readonly class="form-control" />
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="EndDate" class="control-label">Ngày kết thúc</label>
+                <input asp-for="EndDate" readonly class="form-control" />
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Room" class="control-label">Địa điểm lớp</label>
+                <input asp-for="Room" readonly class="form-control" />
+            <span asp-validation-for="Room" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="MaxNumber" class="control-label">Số sinh viên tối đa</label>
+                <input asp-for="MaxNumber" readonly class="form-control" />
+            <span asp-validation-for="MaxNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group" style="display:none">
+            <label asp-for="CreateBy" class="control-label"></label>
+                <input asp-for="CreateBy" readonly class="form-control" />
+            <span asp-validation-for="CreateBy" class="text-danger"></span>
+        </div>
+        <div class="form-group" style="display:none">
+            <label asp-for="CreateDate" class="control-label"></label>
+            <input asp-for="CreateDate"readonly class="form-control" />
+            <span asp-validation-for="CreateDate" class="text-danger"></span>
+        </div>
+        @* <div class="form-group">
+            <label class="control-label">Xác nhận xóa</label>
+            <input class="form-control" readonly @if (Model.IsDelete == true)
+            {
+                <text>value="Yes"</text>
+            }
+            else
+            {
+                <text>value="No"</text>
+            }
+            />
+
+            <span asp-validation-for="IsDelete" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label class="control-label">Hiển thị</label>
+            <input class="form-control" readonly @if (Model.IsActive == true)
+            {
+                <text>value="Active"</text>
+            }
+            else
+            {
+                <text>value="Inactive"</text>
+            }
+            />
+            <span asp-validation-for="IsActive" class="text-danger"></span>
+        </div> *@
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Chỉnh sửa</a>
+    <a asp-action="Index" class="btn btn-secondary">Trở lại</a>
+</div>

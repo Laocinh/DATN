@@ -1,0 +1,38 @@
+﻿@model DATN.Models.Subject
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+}
+
+<h2>Thêm mới bộ môn</h2>
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Tên môn học</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Major" class="control-label">Tên ngành học</label>
+                <select asp-for="Major" class ="form-control" asp-items="ViewBag.Major"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Term" class="control-label">Tên học phần</label>
+                <select asp-for="Term" class="form-control" asp-items="ViewBag.Term"></select>
+            </div>@* 
+            <div class="form-group">
+                <label asp-for="Status" class="control-label">Trạng thái</label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Tạo" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Trở lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+

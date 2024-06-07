@@ -1,0 +1,39 @@
+﻿@model DATN.Models.RegistStudent
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+}
+
+<h2>Tạo mới thông tin đăng ký học phần</h2>
+ 
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Student" class="control-label">Tên học viên</label>
+                <select asp-for="Student" class ="form-control" asp-items="ViewBag.Student"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetailTerm" class="control-label">Mã chi tiết học phần</label>
+                <select asp-for="DetailTerm" class ="form-control" asp-items="ViewBag.DetailTerm"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Relearn" class="control-label">Số lần học </label>
+                <input asp-for="Relearn" class="form-control" />
+                <span asp-validation-for="Relearn" class="text-danger"></span>
+            </div>@* 
+            <div class="form-group">
+                <label asp-for="Status" class="control-label">Trạng thái</label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Tạo" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Trở lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+</div>

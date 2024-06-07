@@ -1,0 +1,60 @@
+﻿@model DATN.Models.CoursePoint
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+}
+
+<h2>Tạo mới điểm tổng kết</h2>
+ 
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Student" class="control-label">Học viên</label>
+                <select asp-for="Student" class ="form-control" asp-items="ViewBag.Student"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetailTerm" class="control-label">Chi tiết học phần</label>
+                <select asp-for="DetailTerm" class ="form-control" asp-items="ViewBag.DetailTerm"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="RegistStudent" class="control-label">Đăng ký học phần</label>
+                <select asp-for="RegistStudent" class ="form-control" asp-items="ViewBag.RegistStudent"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="PointProcess" class="control-label">Điểm thành phần</label>
+                <select asp-for="PointProcess" class ="form-control" asp-items="ViewBag.PointProcess"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestScore" class="control-label">Điểm thi</label>
+                <input asp-for="TestScore" class="form-control" />
+                <span asp-validation-for="TestScore" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OverallScore" class="control-label">Điểm tổng kết</label>
+                <input asp-for="OverallScore" class="form-control" />
+                <span asp-validation-for="OverallScore" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumberTest" class="control-label">Lần thi</label>
+                <input asp-for="NumberTest" class="form-control" />
+                <span asp-validation-for="NumberTest" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label">Trang thái</label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Staff" class="control-label">Giẩng viên</label>
+                <select asp-for="Staff" class ="form-control" asp-items="ViewBag.Staff"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Tạo" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Trở lại</a>
+            </div>
+        </form>
+    </div>
+</div>

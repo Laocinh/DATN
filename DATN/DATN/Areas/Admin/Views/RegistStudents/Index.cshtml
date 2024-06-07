@@ -1,0 +1,80 @@
+﻿@model X.PagedList.IPagedList<DATN.Models.RegistStudent>
+@using X.PagedList.Mvc.Core
+@inject DATN.Models.QldiemSvContext _dbcontext;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+    var stt = 0;
+}
+<h2 class="py-3" style="margin-top:50px">Danh sách thông tin đăng ký học phần</h2>
+
+
+
+<form action="" method="get" class="form-inline d-flex justify-content-between mb-3" style="display:flex; justify-content:space-between;margin: 30px 0;">
+    @*    tìm ngành học theo tên *@
+    <div class="form-group">
+        <label class="sr-only">Tìm tên theo loại</label>
+        <input class="form-control" name="name" id="keyword" placeholder="Nhập thông tin cần tìm" />
+        <button type="submit" class="btn btn-default mr-1"><i class="fas fa-search"></i></button>
+    </div>
+    @*     ô thêm mới ngành học *@
+    <a asp-action="Create" class="btn btn-success"><i class="fa fa-plus"></i> Thêm mới</a>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>
+                Số lần học
+            </th> 
+            <th>
+                Ngày tạo
+            </th>
+             
+            <th>
+               Mã chi tiết học phần
+            </th>
+            <th>
+                Tên học viên
+            </th>
+            <th>Tác vụ</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            stt++;
+            <tr>
+                <td>
+                    @stt
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Relearn)
+            </td> 
+                <td>
+                    @if (item.CreateDate.HasValue)
+                    {
+                        @item.CreateDate.Value.ToShortDateString()
+                    }
+                </td>
+            <td>
+                    @Html.DisplayFor(modelItem => _dbcontext.Terms.Where(x => x.Id == item.DetailTermNavigation.Term).FirstOrDefault().Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentNavigation.Name)
+            </td> 
+            
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-event"><i class="fa-regular fa-pen-to-square"></i></a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success btn-event"><i class="fa-solid fa-circle-info"></i></a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('Bạn có chắc muốn xóa mục này không?');" class="btn btn-danger btn-event"><i class="fa-solid fa-trash-can"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }), new X.PagedList.Web.Common.PagedListRenderOptions
+{
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" }
+})

@@ -1,0 +1,98 @@
+﻿<aside class="sidebar navbar-default" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+        <ul class="nav" id="side-menu">
+             
+            
+            
+            
+           
+            @* giáo viên *@
+            <li>
+                <a>Giảng viên <span class="fa arrow"> </span></a>
+                 
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a asp-controller="Staffs" asp-action="Index" class="active">Thông tin giảng viên</a>
+                    </li>
+                    <li>
+                        <a asp-controller="UserStaffs" asp-action="Index" class="active">Tài khoản giảng viên</a>
+
+                    </li>
+                    <li>
+                        <a asp-controller="StaffSubjects" asp-action="Index" class="active">Giảng viên bộ môn</a>
+
+                    </li>
+                    <li>
+                        <a asp-controller="Positions" asp-action="Index" class="active">Chức vụ </a>
+                    </li>
+                    <li>
+                        <a asp-controller="TeachingAssignments" asp-action="Index" class="active">Phân công giảng dạy</a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+           @*  Học  viên *@
+            <li>
+                <a>Học viên<span class="fa arrow"> </span></a>
+
+
+                <ul class="nav nav-second-level">
+                    <li><a asp-controller="Students" asp-action="Index" class="active">Thông tin học viên </a></li>
+                    <li>
+                        <a asp-controller="UserStudents" asp-action="Index" class="active">Tài khoản học viên</a>
+
+                    </li>
+
+                     
+                </ul>
+                
+            </li>
+            @* Ngành *@
+            <li>
+                <a>Ngành học  <span class="fa arrow"> </span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a asp-controller="Majors" asp-action="Index" class="active"> Thông tin ngành học</a>
+                    </li>
+                    <li>
+                        <a asp-controller="Subjects" asp-action="Index" class="active"> Bộ môn</a>
+                    </li>
+                    <li>
+                        <a asp-controller="Classes" asp-action="Index" class="active">Lớp</a>
+                    </li>
+                    <li>
+                        <a asp-controller="Sessions" asp-action="Index" class="active">Niên khóa</a>
+                    </li>
+                    <li>
+                        <a asp-controller="Semesters" asp-action="Index" class="active">Học kỳ </a>
+                    </li>
+
+                </ul>
+            </li>
+            @* học phần, điểm *@
+            <li>
+                <a>Học phần,điểm <span class="fa arrow"> </span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a asp-controller="Terms" asp-action="Index" class="active">Học phần</a>
+                    </li>
+                    <li>
+                        <a asp-controller="DetailTerms" asp-action="Index" class="active">Danh sách học phần</a>
+                    </li>
+
+
+                    <li>
+                        <a asp-controller="RegistStudents" asp-action="Index" class="active">Đăng ký học phần</a>
+                    </li>
+                     
+                    <li>
+                        <a asp-controller="CoursePoints" asp-action="TongKetTheoHocPhan" class="active">Điểm Tổng kết</a>                        
+                    </li>
+                </ul>
+            </li>
+            @* end *@
+            
+        </ul>
+    </div>
+</aside>
+<!-- /.sidebar -->

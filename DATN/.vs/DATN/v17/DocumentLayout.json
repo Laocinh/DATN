@@ -1,0 +1,607 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\DATN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\controllers\\coursepointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\controllers\\coursepointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\views\\staffinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\views\\staffinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\views\\shared\\enterscore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\views\\shared\\enterscore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\controllers\\staffinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\controllers\\staffinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\coursepoints\\detailcoursepoint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\coursepoints\\detailcoursepoint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\coursepoints\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\coursepoints\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\coursepoints\\tongkettheohocphan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\coursepoints\\tongkettheohocphan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\coursepoints\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\coursepoints\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\controllers\\registstudentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\controllers\\registstudentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\viewmodels\\hocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\viewmodels\\hocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\registstudents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\registstudents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\models\\qldiemsvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\models\\qldiemsvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\models\\coursepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\models\\coursepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\models\\enterscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\models\\enterscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\viewmodels\\staffinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\viewmodels\\staffinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\teachingassignments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\teachingassignments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\staffs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\staffs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\controllers\\staffsubjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\controllers\\staffsubjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\teachingassignments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\teachingassignments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\teachingassignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\teachingassignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\detailterms\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\detailterms\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\detailterms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\detailterms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\detailterms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\detailterms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\staffsubjects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\staffsubjects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\staffsubjects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\staffsubjects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\staffsubjects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\staffsubjects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\staffsubjects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\staffsubjects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\staffs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\staffs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|c:\\users\\admin\\downloads\\datn\\datn\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C025234-3D41-42AD-8E5A-144A46B034DC}|DATN\\DATN.csproj|solutionrelative:datn\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 255,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\CoursePoints\\Details.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\CoursePoints\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\CoursePoints\\Details.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\CoursePoints\\Details.cshtml",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T19:22:19.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Views\\StaffInfo\\Index.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Views\\StaffInfo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Views\\StaffInfo\\Index.cshtml",
+              "RelativeToolTip": "DATN\\Views\\StaffInfo\\Index.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T19:19:07.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursePointsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\CoursePointsController.cs",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Controllers\\CoursePointsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\CoursePointsController.cs",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Controllers\\CoursePointsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T08:58:09.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetailCoursePoint.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\CoursePoints\\DetailCoursePoint.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\CoursePoints\\DetailCoursePoint.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\CoursePoints\\DetailCoursePoint.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\CoursePoints\\DetailCoursePoint.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAACAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T19:14:01.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffInfoController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Controllers\\StaffInfoController.cs",
+              "RelativeDocumentMoniker": "DATN\\Controllers\\StaffInfoController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Controllers\\StaffInfoController.cs",
+              "RelativeToolTip": "DATN\\Controllers\\StaffInfoController.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAAJUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T08:23:31.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnterScore.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Views\\Shared\\EnterScore.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Views\\Shared\\EnterScore.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Views\\Shared\\EnterScore.cshtml",
+              "RelativeToolTip": "DATN\\Views\\Shared\\EnterScore.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T09:55:30.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DATN\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T19:17:36.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TongKetTheoHocPhan.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\CoursePoints\\TongKetTheoHocPhan.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\CoursePoints\\TongKetTheoHocPhan.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\CoursePoints\\TongKetTheoHocPhan.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\CoursePoints\\TongKetTheoHocPhan.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAADUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T19:09:57.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\CoursePoints\\Index.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\CoursePoints\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\CoursePoints\\Index.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\CoursePoints\\Index.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAF8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T15:06:00.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistStudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\RegistStudentsController.cs",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Controllers\\RegistStudentsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\RegistStudentsController.cs",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Controllers\\RegistStudentsController.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAALEAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:59:06.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Controllers\\ClassesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Controllers\\ClassesController.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAAIoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:11:15.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\RegistStudents\\Index.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\RegistStudents\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\RegistStudents\\Index.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\RegistStudents\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T08:47:15.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HocPhan.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\ViewModels\\HocPhan.cs",
+              "RelativeDocumentMoniker": "DATN\\ViewModels\\HocPhan.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\ViewModels\\HocPhan.cs",
+              "RelativeToolTip": "DATN\\ViewModels\\HocPhan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T16:18:01.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QldiemSvContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Models\\QldiemSvContext.cs",
+              "RelativeDocumentMoniker": "DATN\\Models\\QldiemSvContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Models\\QldiemSvContext.cs",
+              "RelativeToolTip": "DATN\\Models\\QldiemSvContext.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:21:48.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CoursePoint.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Models\\CoursePoint.cs",
+              "RelativeDocumentMoniker": "DATN\\Models\\CoursePoint.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Models\\CoursePoint.cs",
+              "RelativeToolTip": "DATN\\Models\\CoursePoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:10:41.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnterScore.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Models\\EnterScore.cs",
+              "RelativeDocumentMoniker": "DATN\\Models\\EnterScore.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Models\\EnterScore.cs",
+              "RelativeToolTip": "DATN\\Models\\EnterScore.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T08:34:21.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StaffInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\ViewModels\\StaffInfo.cs",
+              "RelativeDocumentMoniker": "DATN\\ViewModels\\StaffInfo.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\ViewModels\\StaffInfo.cs",
+              "RelativeToolTip": "DATN\\ViewModels\\StaffInfo.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T10:37:16.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Index.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Index.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Index.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T19:18:02.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAwwIEAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T08:38:57.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StaffsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\StaffsController.cs",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Controllers\\StaffsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\StaffsController.cs",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Controllers\\StaffsController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAwH4AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T11:15:14.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T08:41:29.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\Students\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T08:40:32.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Edit.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T06:01:36.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Details.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Details.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\TeachingAssignments\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T19:17:17.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Staffs\\Create.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\Staffs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Staffs\\Create.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\Staffs\\Create.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAB4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T19:28:24.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAE8AAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:35:07.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StaffSubjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\StaffSubjectsController.cs",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Controllers\\StaffSubjectsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Controllers\\StaffSubjectsController.cs",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Controllers\\StaffSubjectsController.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAwwDMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:24:31.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\DetailTerms\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\DetailTerms\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\DetailTerms\\Edit.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\DetailTerms\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:56:39.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\DetailTerms\\Create.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\DetailTerms\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\DetailTerms\\Create.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\DetailTerms\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:59:05.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\DetailTerms\\Details.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\DetailTerms\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\DetailTerms\\Details.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\DetailTerms\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:57:38.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\StaffSubjects\\Create.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\StaffSubjects\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\StaffSubjects\\Create.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\StaffSubjects\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:23:52.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\StaffSubjects\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\StaffSubjects\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\StaffSubjects\\Edit.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\StaffSubjects\\Edit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:17:07.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\StaffSubjects\\Details.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\StaffSubjects\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\StaffSubjects\\Details.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\StaffSubjects\\Details.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:17:16.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\StaffSubjects\\Index.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\StaffSubjects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\StaffSubjects\\Index.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\StaffSubjects\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:22:02.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T07:37:46.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Staffs\\Index.cshtml",
+              "RelativeDocumentMoniker": "DATN\\Areas\\Admin\\Views\\Staffs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\DATN\\DATN\\Areas\\Admin\\Views\\Staffs\\Index.cshtml",
+              "RelativeToolTip": "DATN\\Areas\\Admin\\Views\\Staffs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T11:15:20.526Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 65,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

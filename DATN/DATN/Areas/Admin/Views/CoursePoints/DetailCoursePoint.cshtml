@@ -1,0 +1,75 @@
+﻿@model IEnumerable<DATN.ViewModels.EnterScore>
+@{
+    ViewData["Title"] = "Điểm học phần " + @ViewBag.TermName;
+    var stt = 0;
+}
+
+<h1 class="py-3">Điểm học phần @ViewBag.TermName</h1>
+<table class="table table-bordered table-hover bg-white">
+    <thead>
+        <tr>
+            <th >
+                STT
+            </th>
+            <th >
+                ID
+            </th>
+            <th >
+                Tên sinh viên
+            </th>
+            <th >
+                Điểm chuyên cần
+            </th>
+            <th >
+                Điểm giữa kỳ
+            </th>
+            <th >
+                Điểm thi
+            </th>
+            <th >
+                Điểm trung bình
+            </th> 
+            <th>Xóa điểm</th>
+            <th>Xóa KHỏi học phần</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            stt++;
+            <tr>
+                <td>
+                    @stt
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PointProcess)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MidtermPoint)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TestScore)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OverallScore) 
+                </td>
+                <td>
+                    @* <a asp-action="Edit" asp-route-id="@item.PointId" class="btn btn-warning btn-event"><i class="fa-regular fa-pen-to-square"></i></a>
+                @*  <a asp-action="Details" asp-route-id="@item.PointId" class="btn btn-success btn-event"><i class="fa-solid fa-circle-info"></i></a> *@
+                    <a asp-action="Delete" asp-route-id="@item.PointId" asp-route-termId="@ViewBag.TermId" onclick="return confirm('Bạn có chắc muốn xóa điểm của sinh viên này không?');" class="btn btn-danger btn-event"><i class="fa-solid fa-trash-can"></i></a>
+                </td>
+                <td>
+                    @* <a asp-action="Edit" asp-route-id="@item.PointId" class="btn btn-warning btn-event"><i class="fa-regular fa-pen-to-square"></i></a>
+                @*  <a asp-action="Details" asp-route-id="@item.PointId" class="btn btn-success btn-event"><i class="fa-solid fa-circle-info"></i></a> *@
+                    <a asp-action="Delete1" asp-route-id="@item.PointId" asp-route-termId="@ViewBag.TermId" onclick="return confirm('Bạn có chắc muốn xóa mục này không?');" class="btn btn-danger btn-event"><i class="fa-solid fa-trash-can"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,78 @@
+﻿@model DATN.Models.RegistStudent
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+}
+
+<h2>Chỉnh sửa thông tin đăng ký học phần</h2>
+ 
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Student" class="control-label">Tên học viên</label>
+                <select asp-for="Student" class="form-control" asp-items="ViewBag.Student"></select>
+                <span asp-validation-for="Student" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetailTerm" class="control-label">Mã chi tiết học phần</label>
+                <select asp-for="DetailTerm" class="form-control" asp-items="ViewBag.DetailTerm"></select>
+                <span asp-validation-for="DetailTerm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Relearn" class="control-label">Số lần học</label>
+                <input asp-for="Relearn" class="form-control" />
+                <span asp-validation-for="Relearn" class="text-danger"></span>
+            </div>@* 
+            <div class="form-group">
+                <label asp-for="Status" class="control-label">Trạng thái</label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div> *@
+            <div class="form-group" style="display:none">
+                <label asp-for="CreateBy" class="control-label"></label>
+                <input asp-for="CreateBy" class="form-control" />
+                <span asp-validation-for="CreateBy" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="display:none">
+                <label asp-for="UpdateBy" class="control-label"></label>
+                <input asp-for="UpdateBy" class="form-control" />
+                <span asp-validation-for="UpdateBy" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="display:none">
+                <label asp-for="CreateDate" class="control-label"></label>
+                <input asp-for="CreateDate" class="form-control" />
+                <span asp-validation-for="CreateDate" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="display:none">
+                <label asp-for="UpdateDate" class="control-label"></label>
+                <input asp-for="UpdateDate" class="form-control" />
+                <span asp-validation-for="UpdateDate" class="text-danger"></span>
+            </div>
+            @* <div class="form-group">
+                <label class="control-label">Xác nhận xóa</label>
+                <select asp-for="IsDelete" class="form-select" aria-label="Default select example">
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select>
+                <span asp-validation-for="IsDelete" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsActive" class="control-label">Hiển thị</label>
+                <select asp-for="IsActive" class="form-select" aria-label="Default select example">
+                    <option value="true">Active</option>
+                    <option value="false">Inactive</option>
+                </select>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Trở lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
